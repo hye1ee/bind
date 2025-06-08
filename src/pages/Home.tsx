@@ -179,8 +179,8 @@ const FeatureList = styled.ul`
       height: 1.25rem;
       border-radius: 50%;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      align-items: left;
+      justify-content: left;
       font-size: 0.75rem;
       font-weight: bold;
     }
@@ -342,7 +342,7 @@ const Home: React.FC = () => {
                   AI helps structure stories, but the tone stays deeply personal
                 </li>
                 <li>
-                  You receive a beautifully composed, emotionally rich book that feels truly yours
+                  You receive a beautifully made, emotionally rich book that feels truly yours
                 </li>
               </FeatureList>
             </ContentBlock>
