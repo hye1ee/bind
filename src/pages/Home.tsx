@@ -517,33 +517,38 @@ const Home: React.FC = () => {
                 </p>
               </StepContent>
             </StepItem>
-
+            
             <StepItem>
               <StepNumber>5</StepNumber>
               <StepContent>
                 <h4>Receive Your Book</h4>
                 <p>
-                  After correction, layout setting and book design, participant groups receive a beautifully printed, memory-rich book truly of their own.
+                  explanation explanation explanation explanation explanation
+                  explanation explanation
                 </p>
               </StepContent>
             </StepItem>
           </StepsContainer>
-        </Container>
-      </Section>
 
-      </Section>
+          <TwoColumn style={{ marginTop: "4rem" }}>
+            <ContentBlock>
+              <h3>System Workflow</h3>
+              <p>explanation explanation explanation</p>
+              <FeatureList>
+                <li>explanation explanation explanation</li>
+                <li>explanation explanation explanation</li>
+                <li>explanation explanation explanation</li>
+                <li>explanation explanation explanation</li>
+              </FeatureList>
+            </ContentBlock>
+            <ImagePlaceholder>System Flow Diagram</ImagePlaceholder>
+          </TwoColumn>
         </Container>
-          <SectionHeader>
-            <SectionTitle>System Workflow</SectionTitle>
-              <SectionSubtitle>
-                From Shared Memories to a Singular Book
-              </SectionSubtitle>
-          </SectionHeader>
-          <ImagePlaceholderLarge>System Flow Diagram I</ImagePlaceholderLarge>
-          <ImagePlaceholderLarge>System Flow Diagram II</ImagePlaceholderLarge>
-          <ImagePlaceholderLarge>System Flow Diagram III</ImagePlaceholderLarge>
-        </Container>    
       </Section>
+    </>
+  );
+};
+
 
       
     </>
