@@ -71,6 +71,27 @@ const CTAButton = styled(Link)`
   }
 `;
 
+const ScrollButton = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  color: var(--primary-color);
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-lg);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+  }
+`;
+
+
 const ScrollIndicator = styled.div`
   position: absolute;
   bottom: 2rem;
@@ -302,10 +323,11 @@ const Home: React.FC = () => {
               Revolutionizing Book Publishing with collective memory, emotional
               storytelling, and AI-assisted narrative curation
             </Subtitle>
-            <CTAButton to="#intro">
+            <ScrollButton href="#intro">
               Discover How It Works
               <span>→</span>
-            </CTAButton>
+            </ScrollButton>
+
           </HeroContent>
         </Container>
         <ScrollIndicator>
