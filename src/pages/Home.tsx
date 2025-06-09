@@ -516,6 +516,20 @@ const Home: React.FC = () => {
           </StepsContainer>
         </Container>
       </Section>
+
+      <Section>
+        <Container>
+          <SectionHeader>
+            <SectionTitle>System Workflow</SectionTitle>
+            <SectionSubtitle>
+              From Shared Voices to a Singular Book
+            </SectionSubtitle>
+          </SectionHeader>
+          <ImagePlaceholder>System Flow Diagram I</ImagePlaceholder>
+          <ImagePlaceholder>System Flow Diagram II</ImagePlaceholder>
+          <ImagePlaceholder>System Flow Diagram III</ImagePlaceholder>
+        </Container>
+      </Section>
       
     </>
   );
