@@ -311,7 +311,7 @@ const About = () => {
 
           <BackgroundContent>
             <BackgroundText>
-              <h3>Background Text</h3>
+              <h3>Our Inspiration</h3>
               <p>
                 explaination explaination explaination explaination explaination
                 explaination explaination explaination explaination explaination
