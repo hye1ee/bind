@@ -298,8 +298,7 @@ const About = () => {
       <PageHeader>
         <PageTitle>About Bind</PageTitle>
         <PageSubtitle>
-          explaination explaination explaination explaination explaination
-          explaination explaination explaination explaination explaination
+          Bind reimagines book publishing as a living process of collaborative memory. We believe paper books are not just to be written, but to be lived and remembered together.
         </PageSubtitle>
       </PageHeader>
 
@@ -334,16 +333,19 @@ const About = () => {
               <CardIcon>🎯</CardIcon>
               <h3>Our Mission</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                We transform memory-keeping from individual recollection to collaborative storytelling.
+                Through guided conversations, Bind captures not just events, but shared emotions and perspectives.
+                Memories are interpreted, not just recorded: turning feelings into tangible, lasting parts of the story.
+
               </p>
             </MissionCard>
             <MissionCard>
               <CardIcon>🔮</CardIcon>
               <h3>Our Vision</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                We envision a future where writing is not solitary, but directed, with Binders curating emotion, tone, and story.
+                Books become emotional collectibles, departing from information containers.
+                AI supports large-scale generation, while humans focus on authenticity, feeling, and meaning.
               </p>
             </MissionCard>
           </MissionVision>
