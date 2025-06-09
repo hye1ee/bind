@@ -221,19 +221,6 @@ const ImagePlaceholder = styled.div`
   font-weight: 500;
 `;
 
-const ImagePlaceholderLarge = styled.div`
-  background: var(--bg-accent);
-  border: 2px dashed var(--border-color);
-  border-radius: 1rem;
-  height: 630px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-light);
-  font-size: 1.125rem;
-  font-weight: 500;
-`;
-
 const CardGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -377,7 +364,7 @@ const Home: React.FC = () => {
                   AI helps structure stories, but the tone stays deeply personal
                 </li>
                 <li>
-                  Participants receive a beautifully made, emotionally rich book that feels truly theirs
+                  You receive a beautifully made, emotionally rich book that feels truly yours
                 </li>
               </FeatureList>
             </ContentBlock>
@@ -490,8 +477,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>1st Interaction</h4>
                 <p>
-                  The main customer works as an initiator, and goes through a simple conversation with the Binder.
-                  Overall needs and intentions are shared for the Binder to design structures of next steps
+                  explanation explanation explanation explanation explanation
+                  explanation explanation
                 </p>
               </StepContent>
             </StepItem>
@@ -501,8 +488,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>2nd Interaction</h4>
                 <p>
-                  Each participant answers designed questions through a chat.
-                  Stories, emotional fragments and photos are collected, helping AI and the Binder understand your shared year.
+                  explanation explanation explanation explanation explanation
+                  explanation explanation
                 </p>
               </StepContent>
             </StepItem>
@@ -512,12 +499,12 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>3rd Interaction</h4>
                 <p>
-                  Binder and AI collaborate to turn memories into complete chapters.
-                  Binders monitor the entire process, directing the tone, structure, and content.
+                  explanation explanation explanation explanation explanation
+                  explanation explanation
                 </p>
               </StepContent>
             </StepItem>
-            
+
             <StepItem>
               <StepNumber>5</StepNumber>
               <StepContent>
@@ -545,12 +532,6 @@ const Home: React.FC = () => {
           </TwoColumn>
         </Container>
       </Section>
-    </>
-  );
-};
-
-
-      
     </>
   );
 };
