@@ -109,7 +109,7 @@ const Section = styled.section<SectionProps>`
 const Container = styled.div`
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 `;
 
 const SectionHeader = styled.div`
