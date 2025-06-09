@@ -221,6 +221,19 @@ const ImagePlaceholder = styled.div`
   font-weight: 500;
 `;
 
+const ImagePlaceholderLarge = styled.div`
+  background: var(--bg-accent);
+  border: 2px dashed var(--border-color);
+  border-radius: 1rem;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 1.125rem;
+  font-weight: 500;
+`;
+
 const CardGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -525,9 +538,9 @@ const Home: React.FC = () => {
               From Shared Voices to a Singular Book
             </SectionSubtitle>
           </SectionHeader>
-          <p><ImagePlaceholder>System Flow Diagram I</ImagePlaceholder></p>
-          <p><ImagePlaceholder>System Flow Diagram II</ImagePlaceholder></p>
-          <p><ImagePlaceholder>System Flow Diagram III</ImagePlaceholder></p>
+          <p><ImagePlaceholderLarge>System Flow Diagram I</ImagePlaceholderLarge></p>
+          <p><ImagePlaceholderLarge>System Flow Diagram II</ImagePlaceholderLarge></p>
+          <p><ImagePlaceholderLarge>System Flow Diagram III</ImagePlaceholderLarge></p>
         </Container>
       </Section>
       
