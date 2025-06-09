@@ -364,7 +364,7 @@ const Home: React.FC = () => {
                   AI helps structure stories, but the tone stays deeply personal
                 </li>
                 <li>
-                  You receive a beautifully made, emotionally rich book that feels truly yours
+                  Participants receive a beautifully made, emotionally rich book that feels truly theirs
                 </li>
               </FeatureList>
             </ContentBlock>
@@ -477,8 +477,7 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>1st Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  The main customer works as an initiator, and goes through a simple conversation with the Binder. Overall needs and intentions are shared for the Binder to design structures of next steps
                 </p>
               </StepContent>
             </StepItem>
@@ -488,8 +487,7 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>2nd Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Each participant answers guided questions through a chat. Stories, emotional fragments and photos are collected, helping AI and the Binder understand your shared year.
                 </p>
               </StepContent>
             </StepItem>
@@ -499,8 +497,7 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>3rd Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Binder and AI collaborate to turn memories into complete chapters. Binders monitor the entire process, directing the tone, structure, and content.
                 </p>
               </StepContent>
             </StepItem>
@@ -510,8 +507,9 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>Receive Your Book</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+
+                  After correction, layout formatting, and book design, participants receive a beautifully printed, memory-rich book truly of their own.
+
                 </p>
               </StepContent>
             </StepItem>
