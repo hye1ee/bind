@@ -179,8 +179,8 @@ const FeatureList = styled.ul`
       height: 1.25rem;
       border-radius: 50%;
       display: flex;
-      align-items: left;
-      justify-content: left;
+      align-items: center;
+      justify-content: center;
       font-size: 0.75rem;
       font-weight: bold;
     }
