@@ -416,15 +416,13 @@ const Home: React.FC = () => {
             <ContentBlock>
               <h3>What is a Binder?</h3>
               <p>
-                explanation explanation explanation explanation explanation
-                explanation explanation
+                A Binder is the creative lead of a Bind book project, shaping how a book of shared memories takes form.
               </p>
               <FeatureList>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
+                <li>Composes the overall narrative flow</li>
+                <li>Designs the user interview structure</li>
+                <li>Directs AI in real time based on input</li>
+                <li>Curates the content & Shapes final tone</li>
               </FeatureList>
             </ContentBlock>
           </TwoColumn>
