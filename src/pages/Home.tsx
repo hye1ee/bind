@@ -514,22 +514,9 @@ const Home: React.FC = () => {
               </StepContent>
             </StepItem>
           </StepsContainer>
-
-          <TwoColumn style={{ marginTop: "4rem" }}>
-            <ContentBlock>
-              <h3>System Workflow</h3>
-              <p>explanation explanation explanation</p>
-              <FeatureList>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-              </FeatureList>
-            </ContentBlock>
-            <ImagePlaceholder>System Flow Diagram</ImagePlaceholder>
-          </TwoColumn>
         </Container>
       </Section>
+      
     </>
   );
 };
