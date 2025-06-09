@@ -221,6 +221,19 @@ const ImagePlaceholder = styled.div`
   font-weight: 500;
 `;
 
+const ImagePlaceholderLarge = styled.div`
+  background: var(--bg-accent);
+  border: 2px dashed var(--border-color);
+  border-radius: 1rem;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 1.125rem;
+  font-weight: 500;
+`;
+
 const CardGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -364,7 +377,7 @@ const Home: React.FC = () => {
                   AI helps structure stories, but the tone stays deeply personal
                 </li>
                 <li>
-                  You receive a beautifully made, emotionally rich book that feels truly yours
+                  Participants receive a beautifully made, emotionally rich book that feels truly theirs
                 </li>
               </FeatureList>
             </ContentBlock>
@@ -477,8 +490,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>1st Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  The main customer works as an initiator, and goes through a simple conversation with the Binder.
+                  Overall needs and intentions are shared for the Binder to design structures of next steps
                 </p>
               </StepContent>
             </StepItem>
@@ -488,8 +501,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>2nd Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Each participant answers designed questions through a chat.
+                  Stories, emotional fragments and photos are collected, helping AI and the Binder understand your shared year.
                 </p>
               </StepContent>
             </StepItem>
@@ -499,8 +512,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>3rd Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Binder and AI collaborate to turn memories into complete chapters.
+                  Binders monitor the entire process, directing the tone, structure, and content.
                 </p>
               </StepContent>
             </StepItem>
@@ -510,28 +523,29 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>Receive Your Book</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  After correction, layout setting and book design, participant groups receive a beautifully printed, memory-rich book truly of their own.
                 </p>
               </StepContent>
             </StepItem>
           </StepsContainer>
-
-          <TwoColumn style={{ marginTop: "4rem" }}>
-            <ContentBlock>
-              <h3>System Workflow</h3>
-              <p>explanation explanation explanation</p>
-              <FeatureList>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-              </FeatureList>
-            </ContentBlock>
-            <ImagePlaceholder>System Flow Diagram</ImagePlaceholder>
-          </TwoColumn>
         </Container>
       </Section>
+
+      </Section>
+        </Container>
+          <SectionHeader>
+            <SectionTitle>System Workflow</SectionTitle>
+              <SectionSubtitle>
+                From Shared Memories to a Singular Book
+              </SectionSubtitle>
+          </SectionHeader>
+          <ImagePlaceholderLarge>System Flow Diagram I</ImagePlaceholderLarge>
+          <ImagePlaceholderLarge>System Flow Diagram II</ImagePlaceholderLarge>
+          <ImagePlaceholderLarge>System Flow Diagram III</ImagePlaceholderLarge>
+        </Container>    
+      </Section>
+
+      
     </>
   );
 };
