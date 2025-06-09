@@ -525,9 +525,9 @@ const Home: React.FC = () => {
               From Shared Voices to a Singular Book
             </SectionSubtitle>
           </SectionHeader>
-          <ImagePlaceholder>System Flow Diagram I</ImagePlaceholder>
-          <ImagePlaceholder>System Flow Diagram II</ImagePlaceholder>
-          <ImagePlaceholder>System Flow Diagram III</ImagePlaceholder>
+          <p><ImagePlaceholder>System Flow Diagram I</ImagePlaceholder></p>
+          <p><ImagePlaceholder>System Flow Diagram II</ImagePlaceholder></p>
+          <p><ImagePlaceholder>System Flow Diagram III</ImagePlaceholder></p>
         </Container>
       </Section>
       
