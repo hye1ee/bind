@@ -456,7 +456,7 @@ const Home: React.FC = () => {
           <SectionHeader>
             <SectionTitle>How Bind Works</SectionTitle>
             <SectionSubtitle>
-              explanation explanation explanation
+              Bind turns memory into a collaborative book through structured dialogue, AI-assisted writing, and personalized curation.
             </SectionSubtitle>
           </SectionHeader>
 
@@ -466,8 +466,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>Choose Your Binder</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Pick a Binder who fits your group’s vibe, based on the portfolio & autobiography.
+                  They will shape the structure, tone, and the visual design of the book.
                 </p>
               </StepContent>
             </StepItem>
