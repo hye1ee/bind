@@ -3,12 +3,12 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Hero = styled.section`
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     var(--primary-color) 0%,
     var(--secondary-color) 100%
-  );
-  color: white;
+  ); */
+  color: var(--text-primary);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ const ScrollIndicator = styled.div`
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: var(--primary-color);
   opacity: 0.7;
   animation: bounce 2s infinite;
 
@@ -297,10 +297,15 @@ const Home: React.FC = () => {
       <Hero>
         <Container>
           <HeroContent>
-            <Title>Bind</Title>
+            <Title className="ginto">
+              Where Stories Bind
+              <br />
+              and Memories Live.
+            </Title>
             <Subtitle>
-              Revolutionizing Book Publishing with collective memory, emotional
-              storytelling, and AI-assisted narrative curation
+              We craft a yearbook with shared memories,
+              <br />
+              shaped by writers and supported by AI.
             </Subtitle>
             <CTAButton to="#intro">
               Discover How It Works
