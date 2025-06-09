@@ -71,6 +71,27 @@ const CTAButton = styled(Link)`
   }
 `;
 
+const ScrollButton = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  color: var(--primary-color);
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-lg);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+  }
+`;
+
+
 const ScrollIndicator = styled.div`
   position: absolute;
   bottom: 2rem;
@@ -200,6 +221,19 @@ const ImagePlaceholder = styled.div`
   font-weight: 500;
 `;
 
+const ImagePlaceholderLarge = styled.div`
+  background: var(--bg-accent);
+  border: 2px dashed var(--border-color);
+  border-radius: 1rem;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 1.125rem;
+  font-weight: 500;
+`;
+
 const CardGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -307,10 +341,11 @@ const Home: React.FC = () => {
               <br />
               shaped by writers and supported by AI.
             </Subtitle>
-            <CTAButton to="#intro">
+            <ScrollButton href="#intro">
               Discover How It Works
               <span>→</span>
-            </CTAButton>
+            </ScrollButton>
+
           </HeroContent>
         </Container>
         <ScrollIndicator>
@@ -338,16 +373,16 @@ const Home: React.FC = () => {
               </p>
               <FeatureList>
                 <li>
-                  explanation explanation explanation explanation explanation
+                  Shared memories become the foundation, not a single author’s voice
                 </li>
                 <li>
-                  explanation explanation explanation explanation explanation
+                  Each book is a one-year time capsule, co-written by those who lived through it
                 </li>
                 <li>
-                  explanation explanation explanation explanation explanation
+                  AI helps structure stories, but the tone stays deeply personal
                 </li>
                 <li>
-                  explanation explanation explanation explanation explanation
+                  Participants receive a beautifully made, emotionally rich book that feels truly theirs
                 </li>
               </FeatureList>
             </ContentBlock>
@@ -389,31 +424,30 @@ const Home: React.FC = () => {
           <SectionHeader>
             <SectionTitle>Who Can Use Bind?</SectionTitle>
             <SectionSubtitle>
-              explanation explanation explanation explanation explanation
-              explanation explanation
+              Bind is for those who want to reflect, remember, and reimagine their experiences together.
             </SectionSubtitle>
           </SectionHeader>
 
           <CardGrid>
             <Card>
-              <CardIcon>✍️</CardIcon>
-              <CardTitle>User Example</CardTitle>
-              <CardText>explanation explanation explanation</CardText>
+              <CardIcon>👨‍👩‍👧‍👦</CardIcon>
+              <CardTitle>Families</CardTitle>
+              <CardText>Parents, siblings, and children recalling a year of everyday life</CardText>
             </Card>
             <Card>
-              <CardIcon>📖</CardIcon>
-              <CardTitle>User Example</CardTitle>
-              <CardText>explanation explanation explanation</CardText>
-            </Card>
-            <Card>
-              <CardIcon>🏢</CardIcon>
-              <CardTitle>User Example</CardTitle>
-              <CardText>explanation explanation explanation</CardText>
+              <CardIcon>🎉</CardIcon>
+              <CardTitle>Friend Groups</CardTitle>
+              <CardText>Turning everyday photos and jokes into a meaningful record</CardText>
             </Card>
             <Card>
               <CardIcon>🎓</CardIcon>
-              <CardTitle>User Example</CardTitle>
-              <CardText>explanation explanation explanation</CardText>
+              <CardTitle>School Colleagues</CardTitle>
+              <CardText>Commemorating a shared journey of school life or graduation</CardText>
+            </Card>
+            <Card>
+              <CardIcon>🎸</CardIcon>
+              <CardTitle>Student Clubs</CardTitle>
+              <CardText>Bandmates or project teams preserving behind-the-scenes emotions</CardText>
             </Card>
           </CardGrid>
 
@@ -422,15 +456,13 @@ const Home: React.FC = () => {
             <ContentBlock>
               <h3>What is a Binder?</h3>
               <p>
-                explanation explanation explanation explanation explanation
-                explanation explanation
+                A Binder is the creative lead of a Bind book project, shaping how a book of shared memories takes form.
               </p>
               <FeatureList>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
+                <li>Composes the overall narrative flow</li>
+                <li>Designs the user interview structure</li>
+                <li>Directs AI in real time based on input</li>
+                <li>Curates the content & Shapes final tone</li>
               </FeatureList>
             </ContentBlock>
           </TwoColumn>
@@ -442,7 +474,7 @@ const Home: React.FC = () => {
           <SectionHeader>
             <SectionTitle>How Bind Works</SectionTitle>
             <SectionSubtitle>
-              explanation explanation explanation
+              Bind turns memory into a collaborative book through structured dialogue, AI-assisted writing, and personalized curation.
             </SectionSubtitle>
           </SectionHeader>
 
@@ -452,8 +484,8 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>Choose Your Binder</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Pick a Binder who fits your group’s vibe, based on the portfolio & autobiography.
+                  They will shape the structure, tone, and the visual design of the book.
                 </p>
               </StepContent>
             </StepItem>
@@ -463,8 +495,7 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>1st Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  The main customer works as an initiator, and goes through a simple conversation with the Binder. Overall needs and intentions are shared for the Binder to design structures of next steps
                 </p>
               </StepContent>
             </StepItem>
@@ -474,8 +505,7 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>2nd Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Each participant answers guided questions through a chat. Stories, emotional fragments and photos are collected, helping AI and the Binder understand your shared year.
                 </p>
               </StepContent>
             </StepItem>
@@ -485,8 +515,7 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>3rd Interaction</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+                  Binder and AI collaborate to turn memories into complete chapters. Binders monitor the entire process, directing the tone, structure, and content.
                 </p>
               </StepContent>
             </StepItem>
@@ -496,28 +525,30 @@ const Home: React.FC = () => {
               <StepContent>
                 <h4>Receive Your Book</h4>
                 <p>
-                  explanation explanation explanation explanation explanation
-                  explanation explanation
+
+                  After correction, layout formatting, and book design, participants receive a beautifully printed, memory-rich book truly of their own.
+
                 </p>
               </StepContent>
             </StepItem>
           </StepsContainer>
-
-          <TwoColumn style={{ marginTop: "4rem" }}>
-            <ContentBlock>
-              <h3>System Workflow</h3>
-              <p>explanation explanation explanation</p>
-              <FeatureList>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-                <li>explanation explanation explanation</li>
-              </FeatureList>
-            </ContentBlock>
-            <ImagePlaceholder>System Flow Diagram</ImagePlaceholder>
-          </TwoColumn>
         </Container>
       </Section>
+
+      <Section>
+        <Container>
+          <SectionHeader>
+            <SectionTitle>System Workflow</SectionTitle>
+            <SectionSubtitle>
+              From Shared Voices to a Singular Book
+            </SectionSubtitle>
+          </SectionHeader>
+          <p><ImagePlaceholderLarge>System Flow Diagram I</ImagePlaceholderLarge></p>
+          <p><ImagePlaceholderLarge>System Flow Diagram II</ImagePlaceholderLarge></p>
+          <p><ImagePlaceholderLarge>System Flow Diagram III</ImagePlaceholderLarge></p>
+        </Container>
+      </Section>
+      
     </>
   );
 };

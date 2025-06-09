@@ -210,7 +210,7 @@ const Portfolio: React.FC = () => {
         <Container>
           <PageTitle>Portfolio</PageTitle>
           <PageSubtitle>
-            explanation explanation explanation explanation explanation explanation
+            Our binders, their autobiography, and contributed work
           </PageSubtitle>
         </Container>
       </PageHeader>

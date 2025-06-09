@@ -298,8 +298,7 @@ const About = () => {
       <PageHeader>
         <PageTitle>About Bind</PageTitle>
         <PageSubtitle>
-          explaination explaination explaination explaination explaination
-          explaination explaination explaination explaination explaination
+          Bind reimagines book publishing as a living process of collaborative memory. We believe paper books are not just to be written, but to be lived and remembered together.
         </PageSubtitle>
       </PageHeader>
 
@@ -312,18 +311,15 @@ const About = () => {
 
           <BackgroundContent>
             <BackgroundText>
-              <h3>Background Text</h3>
+              <h3>Our Inspiration</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                We began with a question: How will the paper book publishing system change in an age of AI? As AI accelerates the speed of content creation, the act of making a book is no longer a technical challenge, but it’s a curatorial one.
               </p>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                In this new landscape, we believe the physical book must evolve. Not as mass-produced media, but as a meaningful, enduring object, something collective, intentional, and premium. A book that holds emotional weight. A book that feels like it should be kept.
               </p>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                To find the most natural context for this kind of future book, we turned to yearbooks, which is already a ritual of collective memory. From there, Bind emerged: a system for turning shared experiences into beautifully crafted books, made from many voices, and held with care.
               </p>
             </BackgroundText>
             <BackgroundImage>📚</BackgroundImage>
@@ -334,16 +330,19 @@ const About = () => {
               <CardIcon>🎯</CardIcon>
               <h3>Our Mission</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                We transform memory-keeping from individual recollection to collaborative storytelling.
+                Through guided conversations, Bind captures not just events, but shared emotions and perspectives.
+                Memories are interpreted, not just recorded: turning feelings into tangible, lasting parts of the story.
+
               </p>
             </MissionCard>
             <MissionCard>
               <CardIcon>🔮</CardIcon>
               <h3>Our Vision</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                We envision a future where writing is not solitary, but directed, with Binders curating emotion, tone, and story.
+                Books become emotional collectibles, departing from information containers.
+                AI supports large-scale generation, while humans focus on authenticity, feeling, and meaning.
               </p>
             </MissionCard>
           </MissionVision>
@@ -354,44 +353,39 @@ const About = () => {
         <Container>
           <SectionTitle>Design Philosophy</SectionTitle>
           <SectionSubtitle>
-            explainationexplainationexplainationexplainationexplaination
+            Our philosophy centers around clarity, emotional resonance, and timeless aesthetics:
           </SectionSubtitle>
 
           <PhilosophyGrid>
             <PhilosophyCard>
               <PhilosophyIcon>🤝</PhilosophyIcon>
-              <h3>Philosophy Example</h3>
+              <h3>Conversation-first Design</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                We prioritize natural conversation and intuitive reflection over formal writing, so everyone feels included in authorship.
               </p>
             </PhilosophyCard>
 
             <PhilosophyCard>
               <PhilosophyIcon>⚡</PhilosophyIcon>
-              <h3>Philosophy Example</h3>
+              <h3>Emotional Accuracy</h3>
               <p>
-                eexplaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
-                explaination
+                Our AI is not designed to mimic people or exaggerate them, but to organize and respect their stories with nuance.
               </p>
             </PhilosophyCard>
 
             <PhilosophyCard>
               <PhilosophyIcon>🎨</PhilosophyIcon>
-              <h3>Philosophy Example</h3>
+              <h3>Tailored Aesthetics</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                Each book is visually and tonally customized, ensuring that every memory feels unique yet premium.
               </p>
             </PhilosophyCard>
 
             <PhilosophyCard>
               <PhilosophyIcon>🌍</PhilosophyIcon>
-              <h3>Philosophy Example</h3>
+              <h3>Context Adaptability</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                Our system respects and responds to different cultural rituals, values, and communication styles through variety of Binders.
               </p>
             </PhilosophyCard>
           </PhilosophyGrid>
@@ -408,37 +402,33 @@ const About = () => {
           <ValuesGrid>
             <ValueItem>
               <ValueNumber>1</ValueNumber>
-              <h3>Value</h3>
+              <h3>Shared Authorship</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                Bind's uniqueness comes from gathering multiple perspectives.. Our tools empower groups to tell their truth in one collective voice.
               </p>
             </ValueItem>
 
             <ValueItem>
               <ValueNumber>2</ValueNumber>
-              <h3>Value</h3>
+              <h3>Honest Memory</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                Bind values authenticity over perfection. Our books do not idealize, but they reflect; with all the complexity that real life brings.
               </p>
             </ValueItem>
 
             <ValueItem>
               <ValueNumber>3</ValueNumber>
-              <h3>Value</h3>
+              <h3>Emotional Presence</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                Every book is designed to carry emotion over information. We aim to make memory tangible, immersive, and lasting.
               </p>
             </ValueItem>
 
             <ValueItem>
               <ValueNumber>4</ValueNumber>
-              <h3>Empowerment</h3>
+              <h3>Physical Permanence</h3>
               <p>
-                explaination explaination explaination explaination explaination
-                explaination explaination explaination explaination explaination
+                Bind creates objects meant to last, physically and emotionally. The printed book becomes a future-proof vessel of shared remembrance.
               </p>
             </ValueItem>
           </ValuesGrid>
